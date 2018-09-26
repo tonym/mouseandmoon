@@ -1,0 +1,47 @@
+/* main css file */
+html {
+  height: 100%;
+}
+
+body {
+  background: #000;
+  height: 100%;
+  margin: auto;
+}
+
+.hero {
+  background-image: url(../images/hero.jpg);
+  background-position: center 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  max-height: 890px;
+}
+
+.wrapper {
+  height: 100%;
+  margin: auto;
+  max-width: 1400px;
+}
+
+/* Bootstrap overrides */
+.fixed-top {
+  max-width: 1600px;
+  left: auto;
+  right: auto;
+}
+
+.jumbotron {
+  padding: 3.25rem 1.5rem;
+}
+
+.navbar-light .navbar-brand, .navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover {
+  color: rgba(230,217,135,1);
+  font-family: 'Cherry Swash', cursive;
+  font-size: 2rem;
+}
+
+.navbar-light .navbar-nav .nav-link, .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover,
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+  color: #fff;
+}
